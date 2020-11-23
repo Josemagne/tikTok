@@ -1,0 +1,51 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 235, 235);
+  height: 100vh;
+}
+
+.result {
+  font-family: sans-serif;
+  position: absolute;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kasten {
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(168, 205, 218);
+}
+
+.zellen {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.zelle {
+  list-style: none;
+  border: 1px solid rgb(107, 106, 106);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-family: sans-serif;
+}
+
+.zelle:hover {
+  cursor: pointer;
+  background-color: rgb(174, 215, 230);
+}
