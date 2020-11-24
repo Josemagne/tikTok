@@ -10,8 +10,15 @@ body {
 }
 
 .result {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.result p {
   font-family: sans-serif;
   position: absolute;
+  margin-top: 3rem;
 }
 
 .container {
